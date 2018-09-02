@@ -31,7 +31,7 @@ namespace QaAutomationSecondExam
                 var screenshot = ((ITakesScreenshot)driver).GetScreenshot();
                 screenshot.SaveAsFile(screenshotLocation + testName + ".png", ScreenshotImageFormat.Png);
             }
-            //driver.Close();
+            driver.Close();
         }
 
         [Test]

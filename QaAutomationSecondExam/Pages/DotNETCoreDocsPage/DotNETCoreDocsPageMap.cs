@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 
-namespace QaAutomationSecondExam.Pages.AutomateThePlanetPage
+namespace QaAutomationSecondExam.Pages.DotNETCoreDocsPage
 {
-    public partial class AutomateThePlanetPage
+    public partial class DotNETCoreDocsPage
     {
         public IWebElement DotNETCoreGuideLink => Driver.FindElement(By.XPath("//*[@id=\"filterResults\"]/ul/li[3]/a"));
 

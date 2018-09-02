@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading;
-using OpenQA.Selenium;
-using OpenQA.Selenium.Interactions;
+﻿using OpenQA.Selenium;
 
-namespace QaAutomationSecondExam.Pages.AutomateThePlanetPage
+namespace QaAutomationSecondExam.Pages.DotNETCoreDocsPage
 {
-    public partial class AutomateThePlanetPage : BasePage
+    public partial class DotNETCoreDocsPage : BasePage
     {
-        public AutomateThePlanetPage(IWebDriver driver) : base(driver)
+        public DotNETCoreDocsPage(IWebDriver driver) : base(driver)
         {
         }
 
