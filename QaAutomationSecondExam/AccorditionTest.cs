@@ -7,6 +7,10 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using QaAutomationSecondExam.Pages.AccordionPage;
 
+//Navigate to http://demoqa.com/, click on Accordion, then on Customize icons.
+//Verify that after clicking Toggle icons button every section have an arrow in front of name.
+//Verify that when you click on any section only this section is open and can be read from the user
+
 namespace QaAutomationSecondExam
 {
     [TestFixture]

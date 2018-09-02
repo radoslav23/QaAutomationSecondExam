@@ -7,6 +7,13 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using QaAutomationSecondExam.Pages.DotNETCoreDocsPage;
 
+//Navigate to https://docs.microsoft.com/en-us/dotnet/csharp/
+//On left navigation click on .NET Core Guide;
+//On nested articles click on Docker;
+//On nested articles click on Introduction to.NET and Docker;
+//On the right you can see In this Article navigation
+//Verify that every link in In this Article scroll to section in the article with the same name
+
 namespace QaAutomationSecondExam
 {
     [TestFixture]

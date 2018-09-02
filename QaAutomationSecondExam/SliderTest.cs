@@ -7,6 +7,9 @@ using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using QaAutomationSecondExam.Pages.SliderPage;
 
+//Navigate to http://demoqa.com/, click on Slider and drag it to the right.
+//Verify that input over it increase its value
+
 namespace QaAutomationSecondExam
 {
     [TestFixture]
